@@ -1,0 +1,223 @@
+<header>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</header>
+<div  class="container">
+
+<div class="home_view">
+    <nav class=" navbar navbar-expand-lg  ">
+        <a style="color: black;" class="navbar-brand" href="#">
+            <img src="/images/logo.png" width="30" height="30" class="d-inline-block align-top" alt=""> |
+            <span style="    -webkit-font-smoothing: antialiased; color: rgba(0,0,0,0.8)">CCCSP FUTA(Admin section)</span>
+
+        </a>
+        <button style="padding-bottom: 10px; margin-left: -8px; outline-color: #2e6da4" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span style="display: block; background-color: royalblue; height: 3px; width: 30px; margin-top: 7px;"></span>
+            <span style="display: block; background-color: royalblue; height: 3px; width: 30px;  margin-top: 7px;"></span>
+            <span style="display: block; background-color: royalblue; height: 3px; width: 30px;  margin-top: 7px;"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/land_page">Home</a>
+                </li>
+                <!--<li class="nav-item">-->
+                    <!--<a class="nav-link" href="#">Notification</a>-->
+                <!--</li>-->
+
+                <!--<li class="nav-item">-->
+                    <!--<a class="nav-link" href="#">Help ?</a>-->
+                <!--</li>-->
+                <!--<li class="nav-item">-->
+                    <!--<a class="nav-link" href="#">About</a>-->
+                <!--</li>-->
+                <li class="nav-item">
+                    <!--<a class="nav-link btn btn-primary" style="width: 150px;"  href="#">Login</a>-->
+                    <a class="nav-link bg-primary " style="padding: 14px 60px;  color: white; font-size: 130%;"  href="/users/Register_member">Go to main admin page</a>
+                </li>
+
+
+
+
+            </ul>
+
+        </div>
+    </nav>
+
+
+</div>
+    <div class="row" style="margin-top: -550px; padding: 15px 70px; color: white;">
+        <div class="c col-md-6 col-sm-12 "> <h1 class="head"  style="  font-family: 'Nunito', sans-serif; font-weight: bolder">
+            Peculiar Soft
+          <h1 class="top"  style="line-height:50px;  margin-top: 40px; font-family: Verdana; font-weight: lighter">
+                The peculiar soft is a platform that allows users to maintain the database of the church
+            </h1>
+            <p class="middle" style="font-size: 120%; line-height: 30px; margin-top: 40px;  font-family: Verdana">
+                Peculiar soft features such as maintenance of a large scale database, mark attendance every sunday , send mesage to all missing members, show birthday celebrants and also send messages to them.
+            </p>
+        </h1></div>
+
+
+        <!--<div  class="col-md-6 col-sm-12 right" style="padding-left: 70px;"> <div id="img" style=" height: 400px; width: 480px;"><img  src="/images/logo.png" style=" height: 400px; width: 480px;"></div>-->
+        <!--<div style="position: absolute; margin-top: -30px; height: 40px; width: 530px; background-color: rgba(0,0,0,1)">-->
+            <!--<p style=" text-align: center; color: white ; font-family: 'Nunito', sans-serif;font-size: 200%">STUDENT PARISH FUTA</p>-->
+        <!--</div></div>-->
+        <div  class="col-md-6 col-sm-12 right" style="padding-left: 70px;"> <div id="ig" style=""><img class="im " src="/images/logo.png" >
+            <div style="position: absolute; margin-top: -30px; height: 40px; width: 530px; background-color: rgba(0,0,0,1)">
+                <p style=" text-align: center; color: white ; font-family: 'Nunito', sans-serif;font-size: 200%">STUDENT PARISH FUTA</p>
+            </div></div>
+           </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-6">
+                <span class="link">  <a style="color: white" class="btn btn-primary b " href="/users/Register_member">Add new Member</a> </span><span> <a style="color: white"  class="btn  " href="/users/signup">Add a new Admin</a></span>
+
+            </div>
+        </div>
+
+    </div>
+    <footer class="bg-primary" style="padding-top:20px;width:100%;margin-top: -5px; text-align: center">
+        <h2>&copy; copyright peculiar-tech</h2>
+    </footer>
+
+    <script type="text/javascript">
+
+        var img = document.getElementById('img');
+        var images = ['/images/pic2.jpg','/images/pic3.jpg','/images/pic4.jpg','/images/pic5.jpg','/images/pic6.jpg','/images/pic7.jpg', '/images/pic8.jpg','/images/pic9.jpg','/images/pic10.jpg','/images/pic11.jpg','/images/pic12.jpg','/images/pic13.jpg','/images/pic14.jpg','/images/pic15.jpg'];
+        var x = 0;
+
+        function slide() {
+            if (x < images.length) {
+                x++;
+            } else {
+                x = 1;
+            }
+            img.innerHTML = "<img src= " + images[x - 1] + ">";
+
+        }
+        setInterval(slide, 7400);
+    </script>
+
+</div>
+<style type="text/css">
+
+    img.im{
+
+        height: 400px;
+        width: 480px;
+        /*animation: ani 7.4s infinite;*/
+
+    }
+    .btn{
+        margin-top: 10px;
+        width: 320px;
+        padding-top: 18px;
+        font-size: 170%;
+        height: 82px;
+        border: 1px solid white;
+        border-radius: 60px;
+    }
+    .btn:hover{
+        background: #2e6da4;
+        color: white;
+    }
+
+    @keyframes ani {
+       0%{opacity: 0;}
+    }
+    .b{
+        /*background:#2e6da4;*/
+    }
+    .b:hover{
+        color: white;
+        background: transparent;
+        border: 1px solid #2e6da4;
+    }
+    nav.navbar{
+        border-radius:0;
+        padding: 10px 6px;
+z-index: 1;
+        position: fixed;
+        width: 97.8%;
+        color:rgba(0,0,0,0.8);
+        background: white;
+    }
+    a{
+        color:rgba(0,0,0,0.8);
+        margin-left: 60px;
+    }
+    .navbar-brand{
+        margin-left: -17px;
+    }
+h1.head{
+    font-size: 360%;
+}
+h1.top{
+    font-size: 240%;
+}
+  .home_view{
+      height: 100vh;
+width: 100%;
+      /*background-image: url("/images/back.jpg");*/
+      background-color: rgba(0,0,200,1);
+background-repeat: no-repeat;
+      background-size: cover;
+  }
+.container{
+    min-width: 100%;
+    padding-right: -10px;
+}
+    @media (max-width: 768px) {
+        .container{
+            width: 100%;
+            padding: 0 0px;
+        }
+        .middle{
+            display: none;
+        }
+        .right{
+            display: none;
+        }
+        h1.top{
+            padding-top: -40px;
+            font-size: 180%;
+            margin-top: -10px;
+            line-height: 7px;
+
+        }
+        a.b{
+         width: 100%;
+            height: 40px;
+margin-top: 60px;
+            margin-left: -5px;
+            font-size: 150%;
+            border: none;
+            padding-top: 4px;
+
+        }
+       .c h1.head{
+color: white;
+           font-size: 242%;
+           margin: -10px;
+        }
+       footer{
+
+       }
+        .btn{
+            padding-top: 4px;
+            font-size: 150%;
+
+
+            margin-left: -5px;
+            width: 100%;
+            height: 40px;
+        }
+nav.navbar{
+    width: 100%;
+
+}
+
+    }
+</style>
